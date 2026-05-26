@@ -1,0 +1,30 @@
+METHOD 2 - CNN
+
+CNN TEST / CRO-FIREDA
+Accuracy: 0.6990
+F1 macro: 0.4892
+
+              precision    recall  f1-score   support
+
+           0       0.56      0.12      0.20       186
+           1       0.72      0.92      0.81       893
+           2       0.59      0.38      0.46       293
+
+    accuracy                           0.70      1372
+   macro avg       0.63      0.47      0.49      1372
+weighted avg       0.67      0.70      0.65      1372
+
+
+CNN TEST / OPJ
+Accuracy: 0.3302
+F1 macro: 0.2599
+
+              precision    recall  f1-score   support
+
+           0       0.26      0.07      0.11        68
+           1       0.28      0.81      0.41       152
+           2       0.64      0.16      0.25       316
+
+    accuracy                           0.33       536
+   macro avg       0.40      0.35      0.26       536
+weighted avg       0.49      0.33      0.28       536

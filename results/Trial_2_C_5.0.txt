@@ -1,0 +1,42 @@
+METHOD 1 - ML
+Model: TF-IDF + Logistic Regression
+Hyperparameters: C=5.0, max_features=20000, ngram_range=(1,2), max_iter=300
+
+================ CROSS VALIDATION ================
+Fold 1: F1 macro = 0.5865
+Fold 2: F1 macro = 0.6179
+Fold 3: F1 macro = 0.5710
+Fold 4: F1 macro = 0.5924
+Fold 5: F1 macro = 0.6174
+
+Mean F1 macro: 0.5970
+Std: 0.0182
+
+================ IN-DOMAIN TEST / CRO-FIREDA ================
+Accuracy: 0.7354
+F1 macro: 0.6010
+
+              precision    recall  f1-score   support
+
+           0       0.54      0.27      0.36       186
+           1       0.79      0.87      0.83       893
+           2       0.62      0.60      0.61       293
+
+    accuracy                           0.74      1372
+   macro avg       0.65      0.58      0.60      1372
+weighted avg       0.72      0.74      0.72      1372
+
+
+================ OUT-OF-DOMAIN TEST / OPJ NAJDOKTOR ================
+Accuracy: 0.4254
+F1 macro: 0.4187
+
+              precision    recall  f1-score   support
+
+           0       0.41      0.38      0.40        68
+           1       0.31      0.68      0.42       152
+           2       0.72      0.31      0.44       316
+
+    accuracy                           0.43       536
+   macro avg       0.48      0.46      0.42       536
+weighted avg       0.56      0.43      0.43       536
