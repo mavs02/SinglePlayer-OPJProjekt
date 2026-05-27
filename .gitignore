@@ -1,5 +1,14 @@
 venv/
 __pycache__/
 *.pyc
+
+# Large model files
+*.safetensors
+*.bin
 *.pt
 
+# Transformer checkpoints/models
+Method3/Transformer/BERTic/bertic_model/
+Method3/Transformer/BERTic/logs/
+Method3/Transformer/BERT/bert_model/
+Method3/Transformer/BERT/logs/

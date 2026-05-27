@@ -1,0 +1,14 @@
+Method 3: Transformer - BERTic
+Model: classla/bcms-bertic
+Train data: data/processed/train.csv
+Validation data: data/processed/val.csv
+
+eval_loss: 0.42633697390556335
+eval_accuracy: 0.8483965014577259
+eval_precision: 0.8543113495991657
+eval_recall: 0.8483965014577259
+eval_f1: 0.849778408895596
+eval_runtime: 0.7422
+eval_samples_per_second: 462.15
+eval_steps_per_second: 57.937
+epoch: 2.0

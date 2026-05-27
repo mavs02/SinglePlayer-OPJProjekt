@@ -1,0 +1,24 @@
+Method 3: Transformer - BERTic Results on golden_test
+Model: classla/bcms-bertic
+Data: data_raw/OPJDataset_clean.csv
+
+Accuracy: 0.7350746268656716
+Precision: 0.724775436486075
+Recall: 0.7350746268656716
+F1: 0.7271252161305709
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.71      0.67        68
+           1       0.59      0.47      0.52       152
+           2       0.81      0.87      0.84       316
+
+    accuracy                           0.74       536
+   macro avg       0.68      0.68      0.68       536
+weighted avg       0.72      0.74      0.73       536
+
+Confusion matrix:
+[[ 48  19   1]
+ [ 18  71  63]
+ [ 10  31 275]]

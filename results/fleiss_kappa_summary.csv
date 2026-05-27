@@ -1,0 +1,3 @@
+﻿comparison,level,samples,kappa,interpretation
+AI chatbots only,review,139,0.3795,Fair agreement
+Manual review label + AI chatbots,review,139,0.1251,Slight agreement

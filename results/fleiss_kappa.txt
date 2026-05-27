@@ -1,0 +1,37 @@
+FLEISS KAPPA SUMMARY
+
+Dataset: data_raw/OPJDataset_clean_review_labels.csv
+Sentence rows: 536
+Review rows: 139
+
+AGREEMENT RESULTS
+
+Comparison                          Samples   Kappa    Interpretation
+AI chatbots only                    139       0.3795   Fair agreement
+Manual review label + AI chatbots   139       0.1251   Slight agreement
+
+FINAL LABEL DISTRIBUTION
+
+Label   Meaning    Count
+0       Negative   54
+1       Neutral    78
+2       Positive   404
+
+OUTPUT FILES
+
+Summary:
+results/fleiss_kappa_summary.csv
+
+Review-level agreement dataset:
+data_raw/OPJDataset_review_agreement_labels.csv
+
+Final sentence-level dataset:
+data_raw/OPJDataset_clean_review_labels_final.csv
+
+FINAL LABEL RULE
+
+Majority vote:
+label_m + label_chatgpt_review + label_perplexity_review + label_copilot_review
+
+Tie rule:
+label_m wins.
