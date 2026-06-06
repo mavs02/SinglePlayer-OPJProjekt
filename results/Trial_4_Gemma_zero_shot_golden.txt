@@ -1,0 +1,136 @@
+METHOD 4 - GENAI / GEMMA ZERO-SHOT - Test 2: Golden dataset
+Model: google/gemma-3-4b-it
+Dataset: /home/mvlasic/OPJ-SinglePlayer/data_raw/OPJDataset_clean_review_labels_final.csv
+Method: Zero-shot prompt-based sentiment classification
+Label scheme: 0 = negative, 1 = neutral, 2 = positive
+
+================ TEST RESULTS ================
+Number of examples: 536
+Valid predictions: 536
+
+Accuracy: 0.5093
+Weighted precision: 0.5813
+Weighted recall: 0.5093
+Weighted F1-score: 0.5378
+
+Macro precision: 0.3314
+Macro recall: 0.3365
+Macro F1-score: 0.3193
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.11      0.28      0.16        54
+     neutral       0.16      0.12      0.13        78
+    positive       0.73      0.62      0.67       404
+
+    accuracy                           0.51       536
+   macro avg       0.33      0.34      0.32       536
+weighted avg       0.58      0.51      0.54       536
+
+Confusion matrix:
+[[ 15   4  35]
+ [ 10   9  59]
+ [111  44 249]]
+
+Incorrect predictions, first 20:
+
+Text: Stopalo desne noge je palo (nervus peroneus).
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Dragi svi, Operirala sam lumbalni dio kraljeznice 31.7.2024.
+Truth label: 2
+Prediction label: 1
+Raw output: 1
+
+Text: Pređeni kilometri uzaludno za 4 minute pregleda i 750 kn , izvikani , bahati i čak bi se usudio reći slab sa živcima.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Ne preporučam .
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Doktor koji uništava kičme , a nitko mu ništa ne može...
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Dno dna da takav Doktor uopće smije operirati pacijente nakon svih neuspješnim operacija.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Sama sam jedna od njih.
+Truth label: 2
+Prediction label: 1
+Raw output: 1
+
+Text: Nakon 3 operacije kralježnice i stabilzacije kralježnice , doktor je rekao da ne vidi cemu bol, onda me je poslao na CT gdje se vidjelo da je implantat ispao u spirani kanal ..
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: to je izvadio , bolovi mi ne staju ni nakon toga, doktor se ne javlja uopće niti vidi razlog moje boli....
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Pozdrav, Pišem ovaj komentar zbog svoje svoje tete koja je bila kod dr. Sajka na operaciji kralježnice.
+Truth label: 2
+Prediction label: 1
+Raw output: 1
+
+Text: Doktorica Ulla Marton je vodila obje trudnoće našeg djeteta, i oboje su bile rizične.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Tragajući za liječnikom koji će biti u stanju prepoznati zdravstveno stanje i voditi u razdoblju nesigurnosti u plodnost, nije bilo lako.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Svaki put smo bili uvjereni u to.
+Truth label: 2
+Prediction label: 1
+Raw output: 1
+
+Text: Nikad nije odradila pregled ili prijem "ofrlje", dapače.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Toliko neprijateljskih kleveti i neistina nemogu uopće pojmiti.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Vrlo primitivno!
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: Ali da bi to netko mogao ocijeniti mora i sam imati barem neko osnovno zanje o osobnoj njezi i vlastitom tijelu.
+Truth label: 2
+Prediction label: 1
+Raw output: 1
+
+Text: No očito ovakav nivo nije za svakoga.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: A što se tiče KLEVETA, može Vas biti samo sram.
+Truth label: 2
+Prediction label: 0
+Raw output: 0
+
+Text: I dobro je da više ne dolazite.
+Truth label: 2
+Prediction label: 0
+Raw output: 0

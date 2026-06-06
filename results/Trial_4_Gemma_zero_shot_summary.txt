@@ -1,0 +1,7 @@
+METHOD 4 - GENAI / GEMMA ZERO-SHOT SUMMARY
+Model: google/gemma-3-4b-it
+
+| Dataset | Precision | Recall | F1 | Accuracy | Macro F1 |
+|---|---:|---:|---:|---:|---:|
+| Test 1: Cro-FiReDa | 0.7880 | 0.7252 | 0.7330 | 0.7252 | 0.7002 |
+| Test 2: Golden dataset | 0.5813 | 0.5093 | 0.5378 | 0.5093 | 0.3193 |

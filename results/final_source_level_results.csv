@@ -1,0 +1,16 @@
+source_file,method,algorithm,train,dataset,precision,recall,f1,accuracy,cv_mean_f1_macro,cv_std
+Trial_1_C_1.0.txt,Machine learning,TF-IDF + Logistic Regression,Train / 5-fold CV,Test 1: Cro-FiReDa,0.7,0.72,0.69,0.7238,0.5389,0.0159
+Trial_1_C_1.0.txt,Machine learning,TF-IDF + Logistic Regression,Train / 5-fold CV,Test 2: Golden dataset,0.54,0.38,0.35,0.375,0.5389,0.0159
+Trial_2_C_5.0.txt,Machine learning,TF-IDF + Logistic Regression,Train / 5-fold CV,Test 1: Cro-FiReDa,0.72,0.74,0.72,0.7354,0.597,0.0182
+Trial_2_C_5.0.txt,Machine learning,TF-IDF + Logistic Regression,Train / 5-fold CV,Test 2: Golden dataset,0.56,0.43,0.43,0.4254,0.597,0.0182
+Trial_3_CNN.txt,Shallow Deep learning,CNN / Improved,TRAIN,Test 1: Cro-FiReDa,0.67,0.7,0.65,0.699,,
+Trial_3_CNN.txt,Shallow Deep learning,CNN / Improved,TRAIN,Test 2: Golden dataset,0.49,0.33,0.28,0.3302,,
+Trial_3_CNN_improved.txt,Shallow Deep learning,CNN / Improved,TRAIN,Test 1: Cro-FiReDa,0.7,0.65,0.65,0.6501,,
+Trial_3_CNN_improved.txt,Shallow Deep learning,CNN / Improved,TRAIN,Test 2: Golden dataset,0.56,0.6,0.54,0.6007,,
+Trial_3_MLP_balanced.txt,Machine learning,TF-IDF + Balanced MLPClassifier,Train / 5-fold CV,Test 1: Cro-FiReDa,0.73,0.67,0.69,0.6742,0.5916,0.0214
+Trial_3_MLP_balanced.txt,Machine learning,TF-IDF + Balanced MLPClassifier,Train / 5-fold CV,Test 2: Golden dataset,0.54,0.43,0.45,0.4291,0.5916,0.0214
+Trial_4_BERTic.txt,Transformers,BERTić,TRAIN,Unknown,,,,0.8484,,
+Trial_4_BERTic_crofireda_test.txt,Transformers,BERTić,TRAIN,Test 1: Cro-FiReDa,0.84,0.84,0.84,0.836,,
+Trial_4_BERTic_golden_test.txt,Transformers,BERTić,TRAIN,Test 2: Golden dataset,0.72,0.74,0.73,0.7351,,
+Trial_4_Gemma_zero_shot_crofireda.txt,GenAI / Zero-shot,GENAI Gemma3,Zero-shot,Test 1: Cro-FiReDa,0.79,0.73,0.73,0.7252,,
+Trial_4_Gemma_zero_shot_golden.txt,GenAI / Zero-shot,GENAI Gemma3,Zero-shot,Test 2: Golden dataset,0.58,0.51,0.54,0.5093,,

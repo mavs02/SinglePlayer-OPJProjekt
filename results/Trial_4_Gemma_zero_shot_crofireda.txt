@@ -1,0 +1,136 @@
+METHOD 4 - GENAI / GEMMA ZERO-SHOT - Test 1: Cro-FiReDa
+Model: google/gemma-3-4b-it
+Dataset: /home/mvlasic/OPJ-SinglePlayer/data/processed/test.csv
+Method: Zero-shot prompt-based sentiment classification
+Label scheme: 0 = negative, 1 = neutral, 2 = positive
+
+================ TEST RESULTS ================
+Number of examples: 1372
+Valid predictions: 1372
+
+Accuracy: 0.7252
+Weighted precision: 0.7880
+Weighted recall: 0.7252
+Weighted F1-score: 0.7330
+
+Macro precision: 0.6744
+Macro recall: 0.7774
+Macro F1-score: 0.7002
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.54      0.78      0.64       186
+     neutral       0.91      0.66      0.76       893
+    positive       0.57      0.89      0.70       293
+
+    accuracy                           0.73      1372
+   macro avg       0.67      0.78      0.70      1372
+weighted avg       0.79      0.73      0.73      1372
+
+Confusion matrix:
+[[145  35   6]
+ [115 588 190]
+ [  8  23 262]]
+
+Incorrect predictions, first 20:
+
+Text: I ta tehnologija svoju praktičnu primjenu pronalazi kroz zabavni park na temu Divljeg zapada gdje posjetiteljima roboti pružaju usluge u rasponu od dječačkih igara kauboja i Indijanaca , preko seksa do ispunjavanja najmračnijih fantazija .
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: Morao bih napomenuti svakako one u potrazi za akcijom i momentima užasa , da je ovo isključivo drama ali ona napeta , snažna i dirljiva drama , dakle dinamična koja će htjeli vi ili ne ostaviti utisak na vas , a taj utisak podrazumijeva detaljnije istraživanje o ovoj planini , o mogućnosti da se i vi popnete i o bošnjacima koji su to uradili držeći našu zastavu da se vijori .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Bivši operativac Specijalnih Jedinica nakon oboljenja od zloćudnog tumora , traži pomoć kod organizacije koja navodno liječi potencijalne superheroje i pretvara ih u neuništiva bića .
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: Terminator : Genisys ( 2015 )
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Priča je postavljena u New Orleansu nekoliko godina nakon industrijske nesreće koja je zahvatila puno ljudi i usmrtila i nekoliko radnika .
+Truth label: 0
+Prediction label: 1
+Raw output: 1
+
+Text: Ipak , završna epizoda je bila malo čudna .
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: IMDB Ocjena Filma : 7.5 / 10
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: ) , Boss Level primjenjuje koncept pripovijedanja koji uključuje vremensku petlju – situaciju u kojoj jedan / nekoliko likova mora biti zarobljeno u vremenu petlje prije nego što on / ona / oni mogu riješiti misterij koji ih može izvući iz tog ponavljajućeg putovanja kroz vrijeme – u glavnoj radnji priče .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Iskusni reditelj filma Luc Besson , znao je i kakve zvijezde film treba da bi postao popularan , pa je zato jedna od sporednih uloga Morgan Freman , kao naučnik koji će ubrzo početi surađivati sa glavnom junjakinjom s obzirom da ona postaje meta neprijatelja .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Dobra stvar je što završetak nije bio prava litica , jer bi u protivnom bilo štetno za ljude koji su uložili svoje vrijeme za gledanje 10 epizoda .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: U svakom slučaju , za one koji žele vidjeti lagani film o tinejdžerima sa super moćima ( ali ne i superjunaka ) , to bi mogao biti alternativni izbor .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Naravno , to ne nudi zatvaranje prema finalu .
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: Onda imamo Jackie Earle Haley kao The Terror , glavni negativac ove priče .
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: Pronađite sve ovo i još mnogo toga u ovom najnovijem filmu Spider-Man .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Što se tiče same price , to je zapravo bilo dobro i približila nam je više razumijevanja o podrijetlu aliensa koje biste nagađali .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Pa što bi se dogodilo s ovom skupinom ?
+Truth label: 1
+Prediction label: 0
+Raw output: 0
+
+Text: U komi je proveo deset dana , on se budi i odlazi kući , ali uskoro otkriva da je može vidjeti i ćuti šta se dešava na telefonima drugih ljudi , i na kraju može manipulirati drugim električnim uređajima .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Ona je vjerovala da je njezin posao jako važan i da bi mogao spasiti sve ljude .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
+
+Text: Koja je mogla dobiti vizije nečeg strašnog što se događa s drugim ljudima , plus viđenje i komunikaciju s duhovima / duše .
+Truth label: 0
+Prediction label: 1
+Raw output: 1
+
+Text: Međutim , ne bih se brinuo o tom dijelu i mislim da biste trebali potpuno ignorirati sve što kritičari govore .
+Truth label: 1
+Prediction label: 2
+Raw output: 2
